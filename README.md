@@ -34,7 +34,17 @@ O projeto foi organizado para separar as responsabilidades e facilitar a manuten
 Para contornar a limitação de "hibernação" do plano gratuito do Render, implementamos uma integração com o **Uptime Robot**. O serviço realiza requisições periódicas (Pings) para a rota `/api/keep-alive` da API, garantindo que o servidor esteja sempre pronto para resposta imediata durante a avaliação técnica.
 
 ---
+## Testando os Endpoints (Postman)
 
+Para facilitar a validação dos recursos da API, você pode utilizar o **Postman** ou qualquer cliente HTTP (como Insomnia).
+
+**Endpoints Principais:**
+* `GET /api/candidates` - Lista todos os candidatos cadastrados.
+* `GET /api/candidates/id` - Lista um candidato especifico.
+* `POST /api/candidates` - Cadastra um novo candidato (Requer Body JSON).
+* `GET /api/keep-alive` - Rota de monitoramento de status da API.
+
+> **Dica:** Certifique-se de configurar o Header `Content-Type: application/json` nas requisições POST.
 ##  Como Rodar o Projeto Localmente
 
 ### 1. Clonar o Repositório

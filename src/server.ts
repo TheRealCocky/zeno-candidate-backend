@@ -14,7 +14,7 @@ app.use(express.json());
 //all my endponits
 app.use('/api/candidates',candidateRoutes);
 app.get('/', (req: Request, res: Response) => {
-    res.send(`API de Candidatos do Grupo Zeno rodando já pode inserir dados `);
+    res.send(`API de Candidatos do Grupo Zeno rodando`);
 });
 
 app.listen(process.env.PORT, ()=> {

@@ -8,7 +8,7 @@ A API está online e operacional em:
 
 ---
 
-## 🛠️ Tecnologias e Infraestrutura
+## Tecnologias e Infraestrutura
 
 ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=white)
@@ -30,8 +30,8 @@ O projeto foi organizado para separar as responsabilidades e facilitar a manuten
 
 ---
 
-## ⚡ Alta Disponibilidade (Anti-Sleep Mode)
-Para contornar a limitação de "hibernação" do plano gratuito do Render, implementamos uma integração com o **Uptime Robot**. O serviço realiza requisições periódicas (Pings) para a rota `/health` da API, garantindo que o servidor esteja sempre pronto para resposta imediata durante a avaliação técnica.
+##  Alta Disponibilidade (Anti-Sleep Mode)
+Para contornar a limitação de "hibernação" do plano gratuito do Render, implementamos uma integração com o **Uptime Robot**. O serviço realiza requisições periódicas (Pings) para a rota `/api/keep-alive` da API, garantindo que o servidor esteja sempre pronto para resposta imediata durante a avaliação técnica.
 
 ---
 

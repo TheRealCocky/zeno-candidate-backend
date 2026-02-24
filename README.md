@@ -31,7 +31,7 @@ O projeto foi organizado para separar as responsabilidades e facilitar a manuten
 ---
 
 ##  Alta Disponibilidade (Anti-Sleep Mode)
-Para contornar a limitação de "hibernação" do plano gratuito do Render, implementamos uma integração com o **Uptime Robot**. O serviço realiza requisições periódicas (Pings) para a rota `/api/keep-alive` da API, garantindo que o servidor esteja sempre pronto para resposta imediata durante a avaliação técnica.
+Para contornar a limitação de "hibernação" do plano gratuito do Render, implementei uma integração com o **Uptime Robot**. O serviço realiza requisições periódicas (Pings) para a rota `/api/keep-alive` da API, garantindo que o servidor esteja sempre pronto para resposta imediata durante a avaliação técnica.
 
 ---
 ## Testando os Endpoints (Postman)
